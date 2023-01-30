@@ -1,0 +1,206 @@
+#headline{
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    justify-content: center;
+    border: 5 px outset black;
+    height: auto;
+    width: 100%;
+
+}
+
+h1{
+    font-size: 8vh;
+    letter-spacing: 8px;
+    color: white;
+    padding-top: .5em;
+}
+
+
+
+body {
+background-image: url("blood.gif");
+image-rendering: auto;
+padding: 0;
+margin: 0;
+height: 100%;
+width: 100%;
+overflow: visible;
+
+}
+
+
+.body.dark-background {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.saw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    width: 2850px;
+
+}
+
+.saw img{
+    image-rendering: auto;
+    width: 1000px;
+    padding-left: 180px;
+
+}
+
+.drevil img{
+  image-rendering: auto;
+  width: 900px;
+  height: 510px;
+  padding-left: 150px;
+}
+
+#creepy_image.fade-out{
+  transition: opacity 1s ease-in;
+}
+
+
+.montserrat {
+	font-family: montserrat, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.skintone-text {
+	color: salmon;
+}
+
+.dark-text {
+	color: darkblue;
+}
+
+.white-text {
+	color: #fff;
+}
+
+
+p.general {
+    font-size: 2.5vh;
+    margin-bottom: 0.5em;
+    line-height: 1.25em;
+}
+
+
+.inner-border {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    padding-right: 80px;
+}
+
+.outer-border {
+	border: 2px solid #DE9B72;
+    display: center;
+   	height: 800px;
+    width: 100%;
+    align-items: center;
+    padding-top: 70px;
+    margin: 20 auto;
+}
+
+
+.mid-border {
+    position: relative;
+    border: 6px solid #DE9B72;
+    height: 80%;
+    width: 90%;
+    padding: 0 auto;
+    padding-top: 60px;
+    margin: auto;
+}
+
+.inner-border{
+	position: relative;
+	border: 2px solid #DE9B72;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+.vertical-decoration {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 30em;
+    color: white;
+
+}
+
+.vertical-decoration.top {
+	top: 0;
+
+}
+
+.vertical-decoration.bottom {
+	bottom: 0;
+	-webkit-transform: scaleY(-1);
+  	transform: scaleY(-1);
+}
+
+.body.dark-background{
+    background-image: url("creepy_image.jpg");
+}
+
+
+ /*button animation*/
+.rect {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .timeout {
+    background: rgb(245, 244, 244);
+  }
+  
+  .anim-frame {
+    top: 100%;
+    background: green;
+  }
+
+  .timeout {
+    top: 100%;
+    background: yellow;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border: 0;
+
+  }
+
+  /*button formatierung*/
+  #rect1 {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rect0 {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
