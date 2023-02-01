@@ -1,3 +1,5 @@
+//test
+
 window.onload = () => {
   startSetTimeoutAnimation();
   startAnimFrameAnimation();
