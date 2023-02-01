@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your nightmare has started</title>
+    <title>Let´s play a game</title>
     <link rel=stylesheet type="text/css" href="stylesheet.css">
-    <script src="script.js" , defer></script>
+    <script src="scriptLogin.js" , defer></script>
 </head>
 
 <body>
     <div id="headline">
-        <h1>Your nightmare has started now</h1>
+        <h1>Let´s play a game</h1>
     </div>
 
     <div class="body dark-background">
@@ -30,21 +30,31 @@
             </div>
         </div>
     </div>
+    <div id="hell">
+        <h2>Sign up to hell</h2>
+        <div id="offen">
+            <img id="tuere" src="türe.gif" style="display:none;">
+        </div>
+        <div id="signupArea">
+            <h3>Name</h3>
+            <input>
+            </br>
+            <h3>Password</h3>
+            <input type="password">
+            </br>
+            <h3>Choose the right combination</h3>
+            <div id="output2"></div>
+            <div id="output"></div>
+            <button id="Random" onclick="showRandomNumber()">Ignore me</button>
+            </br>
+        </div>
+        <input id="submit" type="submit" value="Submit">
+    </div>
+    </br>
+    </div>
     <div>
-        <h2>Date of Birth</h2>
-        <button id="date">
-            <div></div>
-            <input type="checkbox">
-            <div id="datePicker">
-                <svg viewBox="0 0 350 166">
-                    <ellipse id="ellipse" cx="175" cy="83" rx="150" ry="73"
-                        style="fill-opacity: 0;stroke:yellow;stroke-width:0.5" />
-                    <image id="finger" height="15" width="15" href="middlefinger.jpeg"></image>
-                    <image id="clown" x="105" y="68" height="30" width="30" href="clown.png"></image>
-                </svg>
-            </div>
-        </button>
-
+        <button id="visible"> X </button>
+    </div>
 </body>
 
 </html>
